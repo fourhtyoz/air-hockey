@@ -28,12 +28,6 @@
         <mxCell id="TwQR38HU4lwy93RfwSAQ-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-28" target="TwQR38HU4lwy93RfwSAQ-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-28" value="Проверка статуса конвертации" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="280" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-29" value="Отправка в S3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="420" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="410" as="sourcePoint" />
@@ -60,9 +54,6 @@
         <mxCell id="TwQR38HU4lwy93RfwSAQ-49" value="&lt;div&gt;Логирование на фронте&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="140" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-58" value="Сбор логов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="230" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-66" target="TwQR38HU4lwy93RfwSAQ-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="50" as="targetPoint" />
@@ -76,9 +67,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="420" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-66" value="ОК?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="340" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-69" value="True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="840" width="60" height="30" as="geometry" />
@@ -98,14 +86,8 @@
         <mxCell id="TwQR38HU4lwy93RfwSAQ-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-84" target="TwQR38HU4lwy93RfwSAQ-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-84" value="Проверка статуса контейнера" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="90" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-86" target="TwQR38HU4lwy93RfwSAQ-58">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-86" value="Конвертирует?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-95" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -194,6 +176,12 @@
             <mxPoint x="840" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-125" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="450" as="sourcePoint" />
+            <mxPoint x="520" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-12" value="Скачка видео" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="120" height="40" as="geometry" />
         </mxCell>
@@ -220,6 +208,24 @@
         </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-47" value="Подписаться на таску" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-28" value="Проверка статуса конвертации" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-29" value="Отправка в S3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-58" value="Сбор логов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-66" value="ОК?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="340" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-84" value="Проверка статуса контейнера" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-86" value="Конвертирует?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
