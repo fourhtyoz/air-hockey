@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7">
   <diagram name="Page-1" id="w4wsU0BMT4f8vX6tqYrx">
-    <mxGraphModel dx="954" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1804" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,14 +19,11 @@
         <mxCell id="TwQR38HU4lwy93RfwSAQ-5" value="Centrifugo" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="680" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-12" value="Скачка видео" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="90" width="120" height="40" as="geometry" />
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-17" target="TwQR38HU4lwy93RfwSAQ-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-17" value="Старт конвертации" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="140" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-25" value="Логирование конвертации" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="190" width="120" height="40" as="geometry" />
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-25" target="TwQR38HU4lwy93RfwSAQ-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-28" target="TwQR38HU4lwy93RfwSAQ-66">
           <mxGeometry relative="1" as="geometry" />
@@ -36,9 +33,6 @@
         </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-29" value="Отправка в S3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="420" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-32" value="&lt;div&gt;Сохранение в бакет сегментов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="400" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -52,17 +46,6 @@
             <mxPoint x="520" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-40" value="&lt;div&gt;Сохранение в бакет манифестов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="440" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-43" target="TwQR38HU4lwy93RfwSAQ-58">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-43" value="Ссылка на манифеста" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="490" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TwQR38HU4lwy93RfwSAQ-58">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="760" y="130" as="sourcePoint" />
@@ -74,29 +57,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-47" value="Подписаться на таску" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="90" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-49" value="&lt;div&gt;Логирование на фронте&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="140" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-24" value="FFmpeg конвертация" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="140" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="TwQR38HU4lwy93RfwSAQ-49">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="190" as="targetPoint" />
-            <mxPoint x="480" y="270" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="740" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-58" value="Сбор логов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="230" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TwQR38HU4lwy93RfwSAQ-65" value="&lt;div&gt;Ожидание след. конвертации&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-66" target="TwQR38HU4lwy93RfwSAQ-2">
           <mxGeometry relative="1" as="geometry">
@@ -130,6 +95,9 @@
         <mxCell id="TwQR38HU4lwy93RfwSAQ-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-84" target="TwQR38HU4lwy93RfwSAQ-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwQR38HU4lwy93RfwSAQ-84" target="TwQR38HU4lwy93RfwSAQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TwQR38HU4lwy93RfwSAQ-84" value="Проверка статуса контейнера" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="90" width="120" height="40" as="geometry" />
         </mxCell>
@@ -159,6 +127,99 @@
             <mxPoint x="520" y="540" as="sourcePoint" />
             <mxPoint x="640" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-108" value="Конвертация видео" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-30" width="920" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-121" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108" source="TwQR38HU4lwy93RfwSAQ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="160" as="sourcePoint" />
+            <mxPoint x="200" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-111" value="Начало конвертации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="TwQR38HU4lwy93RfwSAQ-108">
+          <mxGeometry x="10" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-115" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108" target="TwQR38HU4lwy93RfwSAQ-111">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-113" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="780" y="220" as="sourcePoint" />
+            <mxPoint x="900" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="190" as="targetPoint" />
+            <mxPoint x="580" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="740" y="280" />
+              <mxPoint x="740" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108" target="TwQR38HU4lwy93RfwSAQ-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="290" as="targetPoint" />
+            <mxPoint x="620" y="542" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="620" y="543" />
+              <mxPoint x="600" y="543" />
+              <mxPoint x="600" y="417" />
+              <mxPoint x="601" y="417" />
+              <mxPoint x="601" y="300" />
+              <mxPoint x="580" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-122" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108" source="TwQR38HU4lwy93RfwSAQ-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="360" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-123" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108" source="TwQR38HU4lwy93RfwSAQ-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="681.96" y="508" as="sourcePoint" />
+            <mxPoint x="680" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-124" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="TwQR38HU4lwy93RfwSAQ-108">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="170" as="sourcePoint" />
+            <mxPoint x="840" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-12" value="Скачка видео" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-17" value="Docker exec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-25" value="Логирование конвертации" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-24" value="FFmpeg конвертация" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-65" value="&lt;div&gt;Ожидание след. конвертации&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-32" value="&lt;div&gt;Сохранение в бакет сегментов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-40" value="&lt;div&gt;Сохранение в бакет манифестов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-43" value="Ссылка на манифеста" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TwQR38HU4lwy93RfwSAQ-47" value="Подписаться на таску" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="90" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
